@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../demo06"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "1800_2023100_BBY13"
+	}
+}

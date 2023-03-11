@@ -1,0 +1,173 @@
+
+.navbar-light .navbar-brand {
+    color: white;                           /* contrast to secondary colour */
+}
+
+#topBar {
+    background-color: purple !important;
+    color: white; 
+}
+
+.btn-primary, .btn {
+    color: rgb(255, 255, 255);                           /* contrast to secondary colour */
+    font-size: 150%;
+    background-color:rgb(0, 185, 0);                /* some secondary colour */
+    border-color: #000000;                    /* some accent colour */
+    border-width: thin;
+    margin-right: 7px;
+}
+
+body {
+    background-color: #F6FFF8;                /* some primary colour */
+    margin:0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-brand{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.25rem;
+    color: white;
+}
+/* footer css starts here*/
+footer{
+    background-color: purple;
+    font-size: 10pt;
+}
+#center-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#one-sentence, #follow-us, #contact-info{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+#copyright{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+#logo-img{
+    margin-top: 15px;
+    height: 50px;
+    width: 50px;
+}
+
+#follow-us, #contact-info{
+    margin-top: 20px;
+}
+
+.card-img-top{
+    height:300px
+    
+}
+.margins{
+    margin:0 auto;
+}
+
+.addpost{
+    height:50px;
+    width:50px;
+}
+
+.snslogo-img{
+    height: 30px;
+    width: 30px;
+}
+
+/* user profile css */
+#userprofile{
+    text-align: center;
+}
+
+#userprofile > div{
+    margin: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#userprofile-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+/* Login page related CSS */
+#loginContainer{
+    text-align: center;
+}
+
+.loginPage-footer {
+    margin-top: auto;
+}
+
+/* CSS related to user profile page */
+
+#editBtn-Container{
+    display: flex;
+    justify-content: center;
+}
+
+
+#editBtn-UserProfile, #confirmChangesBtn{
+    width: 150px;
+    height: 30px;
+    border: 2px solid purple;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    transition: 0.6s all;
+    border-radius: 12px;
+    margin-top: 12px;
+}
+
+#editBtn-UserProfile:hover, #confirmChangesBtn:hover{
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+}
+
+#editBtn-UserProfile:active, #confirmChangesBtn:active {
+    background-color: white;
+    color: purple;
+}
+
+#imageFile {
+    width: 100px;    
+}
+
+#myName, #myLocation {
+    width: 420px;
+    height: 25px;
+    padding-left: 8px;
+    margin-bottom: 10px;
+}
+
+#hiddenForm{
+    display: none;
+}
+
+#editForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/** This section is for contact page */
+#contact-Content {
+    height: 80vh;
+}
+
+#contact-Content > div {
+    margin-left: 30px;
+    font-size: 16pt;
+}
+
+/** This section is for dropdown menu*/
+
+#navDropDown > li > button > a {
+    text-decoration: none;
+    color: black;
+}
